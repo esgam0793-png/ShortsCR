@@ -105,7 +105,7 @@ nav a.l:hover{
     .burger span{transition:none}
 }
 .hero{
-    --hero-img:url("/images/LQ\ 2.jpg");
+    --hero-img:url(".../images/LQ\ 2.jpg");
 }
 .hero-bg{
     position:absolute;
@@ -296,9 +296,9 @@ a:focus-visible,button:focus-visible{
     text-transform:uppercase;
     padding:8px 14px
 }
-#c1{--img:url("/images/Stills_Cinco_Mailuki_1.2.1.jpg");}
-#c2{--img:url("/images/Comunidad.jpg");}
-#c3{--img:url("/images/3.jpg");}
+#c1{--img:url(".../images/Stills_Cinco_Mailuki_1.2.1.jpg");}
+#c2{--img:url(".../images/Comunidad.jpg");}
+#c3{--img:url(".../images/3.jpg");}
 .vis::after{
     content:"";
     position:absolute;
@@ -661,7 +661,7 @@ a:focus-visible,button:focus-visible{
     margin: 40px 0 80px;
     padding: clamp(36px, 7vw, 80px) 24px;
     text-align: center;
-    background: linear-gradient(rgba(24, 7, 6, 0.55), rgba(24, 7, 6, 0.75)), url("/images/Still_HowARiverIsBorn_02.png");
+    background: linear-gradient(rgba(24, 7, 6, 0.55), rgba(24, 7, 6, 0.75)), url(".../images/Still_HowARiverIsBorn_02.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
